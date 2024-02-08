@@ -1,0 +1,162 @@
+*{
+         
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+ }
+ 
+ .h-font{
+   font-family: 'Croissant One', cursive;
+ 
+ }
+
+ .nav-link:hover,
+ .nav-link.active {
+  color: red !important;
+ }
+
+ .nav-link{
+  color: #fff !important;
+  font-weight: bold;
+ }
+
+
+
+ .affix {
+    top: 0;
+    width: 100%;
+    z-index: 9999 !important;
+  }
+
+  .affix + .container-fluid {
+    padding-top: 70px;
+  }
+ 
+ 
+ input::-webkit-outer-spin-button,
+ input::-webkit-inner-spin-button {
+ -webkit-appearance: none;
+ margin: 0;
+ }
+ input[type=number] {
+ -moz-appearance: textfield;
+ }
+ 
+ .bg-1{
+   background-color: #247714;
+ }
+ .bg-2{
+   background-color: #136C81;
+ }
+ .bg-3{
+   background-color: #3E4F52;
+ } 
+
+ .bg-4{
+     background-color: #4A595B;
+ }
+
+ .bg-5{
+     background-color: #818D8E;
+ }
+
+ .bg-6{
+     background-color: #A4B1B2;
+ }
+
+ .bg-7{
+     background-color: #B08E08;
+ }
+
+ .bg-8{
+  background-color: #D9C3D5;
+ }
+
+  .bg-9{
+  background-color: #000 !important;
+ }
+
+ .bg-10{
+  background-color: #0C8BBE !important;
+ }
+
+ .custom-bg{
+   background-color: #F24E2B;
+ }
+ 
+ .custom-bg:hover{
+   background-color: #C42D0D;
+ }
+ 
+ .font-size{
+   font-size: 50px;
+ }
+ .font-1{
+     font-size: 25px;
+ }
+
+ .font-2{
+  font-size: 35px;
+ }
+
+.h-line{
+  width: 170px;
+  margin: 0 auto;
+  height: 1.7px;
+}
+
+.pop:hover{
+  border-top-color: #F24E2B !important;
+  transform: scale(1.03);
+  transition: all 0.3s;
+}
+
+
+.custom-alert{
+  position: fixed;
+  top: 80px;
+  right: 25px;
+
+}
+
+#dashbord-menu{
+  position: fixed;
+  height: 100%;
+    z-index: 11;
+}
+
+
+::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar
+{
+    width: 12px;
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #555;
+}
+
+
+
+
+
+ 
+@media screen and (max-width: 991px) {
+  #dashbord-menu{
+    height: auto;
+    width: 100%;
+  }
+
+  #main-content{
+    margin-top: 60px;
+  }
+}
